@@ -466,7 +466,6 @@ GameObject:
   m_Component:
   - component: {fileID: 771563831}
   - component: {fileID: 771563832}
-  - component: {fileID: 771563833}
   m_Layer: 0
   m_Name: CameraHolder
   m_TagString: Untagged
@@ -503,22 +502,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraTransform: {fileID: 424203547}
---- !u!114 &771563833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 771563830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0e0ab232db6b2f48a337c63162fd271, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_sensX: 100
-  m_sensY: 100
-  m_camOrientation: {fileID: 2110859058}
-  m_cursorLockKey: 27
 --- !u!1 &1227974551
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,6 +513,7 @@ GameObject:
   - component: {fileID: 1227974554}
   - component: {fileID: 1227974553}
   - component: {fileID: 1227974552}
+  - component: {fileID: 1227974555}
   m_Layer: 0
   m_Name: PlayerCam
   m_TagString: MainCamera
@@ -603,6 +587,22 @@ Transform:
   m_Father: {fileID: 771563831}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 28.683, y: 0, z: 0}
+--- !u!114 &1227974555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227974551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0e0ab232db6b2f48a337c63162fd271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sensX: 400
+  m_sensY: 400
+  m_camOrientation: {fileID: 2110859058}
+  m_cursorLockKey: 27
 --- !u!1 &1572519614
 GameObject:
   m_ObjectHideFlags: 0
@@ -720,12 +720,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70193c8161ed41c40a0719fd2292935d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_cameraTransform: {fileID: 1227974554}
+  m_cameraOrientation: {fileID: 2110859058}
   m_movementSpeed: 8
   m_jumpHeight: 5
-  m_interactableGO: []
+  m_interactRange: 5
   m_jumpKey: 32
-  m_interaction: 0
+  m_crouchKey: 99
+  m_interactionKey: 101
 --- !u!1 &2110859057
 GameObject:
   m_ObjectHideFlags: 0
