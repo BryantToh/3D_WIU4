@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638433888995583301
-    m_Hash: 3537940347
+      ticks: 638433893178100059
+    m_Hash: 2223295532
   m_LockFileStatus:
     m_FilePath: C:/School/3D_Game_Project/WIU4/3D_WIU4/3D_Game_Project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638433889125187128
-    m_Hash: 3522790692
+      ticks: 638433893178110729
+    m_Hash: 2077878383
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
