@@ -62,6 +62,7 @@
     <Compile Include="Assets\Demo\DemoScript\CubeInteract.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IInteractable.cs" />
     <Compile Include="Assets\Scripts\Dungeon\RoomBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Dungeon\DungeonGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Demo\readme.txt" />
