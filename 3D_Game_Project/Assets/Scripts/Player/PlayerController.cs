@@ -99,12 +99,12 @@ public class PlayerController : MonoBehaviour
             Ray r = new Ray(m_cameraOrientation.position, m_cameraOrientation.forward);
             if(Physics.Raycast(r, out RaycastHit hitInfo, m_interactRange))
             {
+                // Checks if the object that the raycast hits has a IInteractable extended as an interface
                 if(hitInfo.collider.TryGetComponent(out IInteractable interactObj))
                 {
                     interactObj.Interact();
                 }
             }
-            Debug.DrawRay(r.origin, r.direction * m_interactRange, Color.red, 1f);
         }
     }
 }

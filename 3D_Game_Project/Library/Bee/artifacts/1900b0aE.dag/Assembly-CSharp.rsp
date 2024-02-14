@@ -348,6 +348,7 @@
 "Assets/Demo/DemoScript/CubeInteract.cs"
 "Assets/Scripts/Camera/CameraMovement.cs"
 "Assets/Scripts/Camera/PlayerCamera.cs"
+"Assets/Scripts/Dungeon/RoomBehaviour.cs"
 "Assets/Scripts/Interfaces/IInteractable.cs"
 "Assets/Scripts/Player/PlayerController.cs"
 -langversion:9.0
